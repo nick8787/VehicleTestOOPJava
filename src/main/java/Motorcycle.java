@@ -1,5 +1,3 @@
-package org.example;
-
 public class Motorcycle extends Vehicle{
 
 @Override

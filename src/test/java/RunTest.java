@@ -1,7 +1,9 @@
-package org.example;
+import org.testng.annotations.Test;
 
-public class Main {
-    public static void main(String[] args) {
+public class RunTest {
+
+    @Test
+    public void Test() {
         Car car = new Car();
         car.uniqPossible();
         car.start();
